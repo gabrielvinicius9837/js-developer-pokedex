@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/pokedex.details.css">
+</head>
+
+<body>
+    <section class="content">
+        <div class="card_top">
+            <a href="/index.html" class="GoBackButton">
+                <img src="imagestest/pngtree-right-pointing-arrow-icon-design-image_1164189-removebg-preview.png">
+            </a>
+            <h1>Bulbasaur</h1>
+            <div class="types">
+                <span class="type">glass</span>
+                <span class="type">poison</span>
+            </div>
+        </div>
+        <div class="card_middle">
+            <img src="imagestest/buba.png">
+        </div>
+        
+        <div class="card_bottom">
+            <div class="menu">
+                <span class="menu_items">about</span>
+                <span class="menu_items">base stats</span>
+                <span class="menu_items">evolution</span>
+                <span class="menu_items">moves</span>
+            </div>
+            <ul class="Stats">
+                <li class="baseStats">hp</li>
+                    <span class="baseStatsValue">15</span>
+                <li class="baseStats">attack</li>
+                    <span class="baseStatsValue">15</span>
+                <li class="baseStats">defense</li>
+                    <span class="baseStatsValue">15</span>
+                <li class="baseStats">special attack</li>
+                    <span class="baseStatsValue">15</span>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Nosso JS -->
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content .card_top {
+    border: solid transparent;
+    background-color: limegreen;
+    position: relative;
+    border-radius: 25px;
+    height: 38rem;
+    z-index: 1;
+    
+}
+
+
+.content .card_middle img {
+    max-width: 50%;
+    display: flex;
+    margin-left: 28%;
+    position: relative;
+    top: -425px;
+    height: 100%;
+    z-index: 3; 
+}
+
+.content .card_bottom {
+    height: 20rem;
+    border: solid transparent;
+    background-color: white;
+    filter: brightness(0.9);
+    position: relative;
+    top: -480px;
+    border-radius: 25px;
+    z-index: 2; 
+}
+
+.card_top .types .type {
+    color: #fff;
+    padding: .25rem .5rem;
+    padding-left: 43px;
+    margin: .25rem 0;
+    font-size: .625rem;
+    font-size: 25px;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.menu {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 4rem;
+}
+
+li {
+    list-style-type: none;
+    font-size: 22px;
+    filter: opacity(0.4);
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+
+
+.card_top .GoBackButton{
+    border: none;
+    background-color: transparent;
+
+}
+.card_top .GoBackButton img{
+    width: 5%;
+    transform: rotate(180deg);
+}
+
+
+.GoBackButton:hover{
+    opacity: 0.7;
+}
+
+a{
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+h1 {
+    padding-left: 2rem;
+    color: aliceblue;
+    font-size: 50px;
+    padding-bottom: 0;
+}
+
+.Stats .baseStats .baseStatsValue{
+    display: flex;
+    flex-direction: row;
+}
