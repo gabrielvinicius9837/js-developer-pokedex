@@ -30,41 +30,8 @@ function loadPokemonItens(offset, limit) {
     })
 }
 
-function convertPokemonToDetails(pokemon){
-    return `
-    <div class="card_top">
-    <a href="/index.html" class="GoBackButton">
-        <img src="imagestest/pngtree-right-pointing-arrow-icon-design-image_1164189-removebg-preview.png">
-    </a>
-    <h1>Bulbasaur</h1>
-    <div class="types">
-        ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
-    </div>
-</div>
-<div class="card_middle">
-    <img src="${pokemon.photo}">
-</div>
 
-<div class="card_bottom">
-    <div class="menu">
-        <span class="menu_items">about</span>
-        <span class="menu_items">base stats</span>
-        <span class="menu_items">evolution</span>
-        <span class="menu_items">moves</span>
-    </div>
-    <ul class="Stats">
-        <li class="baseStats">hp</li>
-            <span class="baseStatsValue">15</span>
-        <li class="baseStats">attack</li>
-            <span class="baseStatsValue">15</span>
-        <li class="baseStats">defense</li>
-            <span class="baseStatsValue">15</span>
-        <li class="baseStats">special attack</li>
-            <span class="baseStatsValue">15</span>
-    </ul>
-</div>
-    `
-}
+
 
 
 

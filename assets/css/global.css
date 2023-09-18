@@ -4,14 +4,20 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #222222;
+    background-image: url('/assets/media/33ac6af8e90054568ab47ad0ef2d02a2.png');
+    background-size: cover;
+
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 18px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 18px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 18px -5px rgba(0,0,0,0.75);
 }
 
 @media screen and (min-width: 992px) {
